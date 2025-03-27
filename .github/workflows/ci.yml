@@ -25,4 +25,4 @@ jobs:
 
      - name: Shutdown Docker Compose
        if: always()
-       run: docker compose down1
+       run: docker compose down
